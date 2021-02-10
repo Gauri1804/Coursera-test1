@@ -83,7 +83,7 @@ input, button {
 	font-family: Century Gothics;
 }
 header{
-	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/bg.jpeg);
+	
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
@@ -118,15 +118,11 @@ ul li.active a{
 .logo img{
 	float: left;
 	width: 200px;
-	height: auto;
+    height: auto;
+    margin-top: 5px;
 }
 
-.title{
-	position: absolute;
-	top: 15%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-}
+
 .title h1{
 	color: #fff;
 	font-size: 70px;
@@ -149,8 +145,8 @@ ul li.active a{
 	background-color: #37c4b6;
 	color: #000;
 }
-
-
-  
-  
-  
+.uk-container{
+    text-align: center;
+    background-color: lightcyan;
+    text-decoration: blueviolet;
+}
